@@ -1,4 +1,2 @@
-# radio
-YJBCTV© Radio Project 
-
-Just for YJBCTV©.
+# yjbctv
+A Project for YJBCTV©
