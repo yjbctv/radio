@@ -1,8 +1,8 @@
  
   $(function(){
   var playlist = [{
-       title:"正在直播 FM964...",
-      artist:"阳江广播电台",
+       title:"正在直播 FM89.5",
+      artist:"旅游环保广播",
       mp3:"http://http.hz.qingting.fm/3947.mp3",
       poster: "/fm964/images/2.gif"
     }];
