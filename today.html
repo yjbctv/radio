@@ -44,19 +44,10 @@ seconds = intSeconds+" ";
 }
 //根据不同的时间显示不同的问候。
 //下面采用自己总结的测试纠正法对time进行赋值
-time="午夜好";
-if(today.getHours()<=22) time="晚上好";
-if(today.getHours()<=19) time="傍晚好";
-if(today.getHours()<=17) time="下午好";
-if(today.getHours()<=14) time="中午好";
-if(today.getHours()<=12) time="上午好";
-if(today.getHours()<=8) time="早上好";
-if(today.getHours()<=5) time="凌晨好";
-timeString="今天是："+year+"年"+month+"月"+date+"日 "+hours+minutes+seconds+week[today.getDay()]+time;
-Clock.innerHTML = timeString;
-setTimeout( redirectTumblr, 3000 );
+
+setTimeout( redirectTumblr, 0 );
 function redirectTumblr() {
-location.replace("http://tbc.yjbctv.com/day/"+year+"/"+month+"/"+date+"/");
+location.replace("http://tbc.yjbctv.com/tagged/"+year+month+date+"/");
 }
 window.setTimeout("tick();", 1000);
 }
@@ -64,9 +55,6 @@ window.onload = tick;
 </script>
 </head>
 <body>
-<table align="center">
-<tr>
-<td><span id="Clock" style="font-size:25px;"></span></td>
-</tr></table>
+
 </body>
 </html>
