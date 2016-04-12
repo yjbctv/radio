@@ -3,7 +3,7 @@
   var playlist = [{
        title:"正在直播 FM89.5",
       artist:"旅游环保广播",
-      mp3:"http://219.129.187.170:1068/live.mp3",
+      mp3:"http://aiseet.lszb.atianqi.com/app_4/yjhbly.m3u8?bitrate=2000",
       poster: "/fm964/images/2.gif"
     }];
   
@@ -15,7 +15,7 @@
   var options = {
     swfPath: "Jplayer.swf",
 	solution: 'html, flash',
-    supplied: "ogv, m4v, oga, mp3,"
+    supplied: "ogv, m4v, oga, mp3, m3u8,"
   };
   
   var myPlaylist = new jPlayerPlaylist(cssSelector, playlist, options);
